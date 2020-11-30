@@ -25,4 +25,17 @@ zip, count;
 ```
 From this data, you can use a join table in your favorite GIS software to plot a graduated color scheme of the number of responses for each zip code. The major issue is that this data looks terrible unless you have many ovservations for most zip codes. It is often preferred to upscale from the zip code resolution to the county level. To do this, you need a lookup table of which zip codes apply to which counties. The best table that I could find was from Nic Colley on [data.world](https://data.world/niccolley/us-zipcode-to-county-state). The dataset is open and requires a login, but is hosted here as lookup.csv.
 
-The Jupyter notebook shows exactly how Python can be used to convert data into county data for mapping in GIS.
+The Jupyter notebook shows exactly how Python can be used to convert data into county data for mapping in GIS. The goal is to make a csv file that contains the above code block appended with a column that is the state FIPS and the county FIPS - such as,
+
+```
+zip, count, stcountyfps;
+98101, 2, 53033;
+98106, 1, 53033;
+98139, 1, 53033;
+```
+The code will then sum the number of responses by state-county FIPS to be plottable in GIS,
+```
+count, stcountyfps;
+4, 53033;
+```
+To follow along with the Jupyter notebook, I have created an example csv file titled sample_data.csv.
