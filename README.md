@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The goal of this repository is to provide an easy to use Python script which converts zip code data from primarily cross-sectional data. This script/method is for data that non-temporal (i.e., one observation per person). This is common for social science datasets that are survey based. 
+The goal of this repository is to provide an easy to use Python script which converts zip code data from primarily cross-sectional data. This script (zip_to_county.ipynb) is for data that non-temporal (i.e., one observation per person). This is common for social science datasets that are survey based. 
 
 ## Pre-requisites
 
