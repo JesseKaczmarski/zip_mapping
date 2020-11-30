@@ -38,6 +38,6 @@ The code will then sum the number of responses by state-county FIPS to be plotta
 count, stcountyfps;
 4, 53033;
 ```
-To follow along with the Jupyter notebook, I have created an example csv file titled sample_data.csv. This data can be used in your favorite GIS software to make the following map. Follow along with the Jupyter notebook in this repository to produce this map.
+To follow along with the Jupyter notebook, I have created an example csv file titled sample_data.csv. This data can be used in your favorite GIS software to make the following map. Follow along with the Jupyter notebook in this repository to get a csv file used to produce this map.
 
 ![Sample Map](https://github.com/JesseKaczmarski/zip_mapping/blob/main/sample_map.png?raw=true)
